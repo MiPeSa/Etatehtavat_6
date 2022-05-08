@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+.users {
+  table-layout: fixed;
+  width: auto;
+  white-space: wrap;
+  border:0;
+  border-spacing:0 0;
+  border-collapse:separate;
+}
+
+
+.row-etunimi {
+  width: auto;
+  height: 40px;
+}
+.row-sukunimi {
+  width: auto;
+  height: 40px;
+}
+.row-puhelin {
+  width: auto;
+  text-align: left;
+  height: 40px;
+}
+.row-sposti {
+  width: auto;
+  text-align: left;
+  height: 40px;
+}
+.users td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.users th {
+  background: lightblue;
+  color: white;
+}
+.users td,
+.users th {
+	text-align: auto;
+ 	padding: 4px 10px;
+    border-top:1px solid white;
+    border-bottom:1px solid lightgrey;
+    border-right: 1px solid #aaaaaa;
+    
+    
+}
+
+.oikealle{
+	text-align: right;
+	height: 40px;
+}
+
+
+
+#uusiAsiakas, #takaisin{
+	color: white;
+	cursor:pointer
+}
+
+
+.hakunap{
+	text-align: left;
+	height: 40px;
+}
+
+tr:hover {background-color: lightgrey;}
